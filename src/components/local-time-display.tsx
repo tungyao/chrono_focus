@@ -29,7 +29,7 @@ export default function LocalTimeDisplay() {
     // Render a placeholder or nothing until the first update
     return (
         <div className="flex items-baseline text-primary" style={{fontVariantNumeric: 'tabular-nums'}}>
-          <span className="text-7xl md:text-9xl font-bold">00:00:00</span>
+          <span className="text-10xl md:text-10xl font-bold">00:00:00</span>
           <span className="text-3xl md:text-5xl font-semibold ml-2 md:ml-4">AM</span>
         </div>
     );
